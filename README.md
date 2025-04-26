@@ -2,7 +2,7 @@
 
 **REPO NON-officiel de l'implémentation du modèle FISR**
 
-Article de l'auteur: [paper](https://arxiv.org/abs/1912.07213).
+Article de l'auteur: [article](https://arxiv.org/abs/1912.07213).
 
 **Reference**:  
 > Soo Ye Kim*, Jihyong Oh*, and Munchurl Kim, "FISR: Deep Joint Frame Interpolation and Super-Resolution with a Multi-scale Temporal Loss", *AAAI Conference on Artificial Intelligence*, 2020. (* *equal contribution*)
