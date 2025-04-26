@@ -30,7 +30,7 @@ Notre code est implémenté sur les versions suivantes:
 ### Quick Start
 1.Télécharger le code source à un dossier quelconque **\<source_path\>**.
 
-2. Télécharger la base de donnée de test des auteurs à l'adresse suivante : [Ce lien]( https://www.dropbox.com/s/101g9kdobgwl8x6/test.zip?dl=0) et unzip le dossier 'test' dans **\<source_path\>/data/test**, vous pourrez alors obtenir une base de donnée en entré (LR LFR), des données de flux, des données déformées et des données en sorties (HR HFR) placés dans **\<source_path\>/data/test/LR_LFR**, **\<source_path\>/data/test/flow** , **\<source_path\>/data/test/warped**  et **\<source_path\>/data/test/HR_HFR**, respectivement. 
+2. Télécharger la base de donnée de test des auteurs à l'adresse suivante : [Ce lien]( https://www.dropbox.com/s/101g9kdobgwl8x6/test.zip?dl=0) et décompressez le dossier 'test' dans **\<source_path\>/data/test**, vous pourrez alors obtenir une base de donnée en entré (LR LFR), des données de flux, des données déformées et des données en sorties (HR HFR) placés dans **\<source_path\>/data/test/LR_LFR**, **\<source_path\>/data/test/flow** , **\<source_path\>/data/test/warped**  et **\<source_path\>/data/test/HR_HFR**, respectivement. 
 ```
 FISR
 └── data
