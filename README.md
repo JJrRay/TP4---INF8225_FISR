@@ -1,14 +1,8 @@
-# FISR
+# TP4 - INF8225
 
-[![ArXiv](https://img.shields.io/badge/ArXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/1912.07213)
-[![AAAI2020](https://img.shields.io/badge/AAAI2020-Paper-<COLOR>.svg)](https://ojs.aaai.org/index.php/AAAI/article/view/6788)
-[![GitHub Stars](https://img.shields.io/github/stars/JihyongOh/FISR?style=social)](https://github.com/JihyongOh/FISR)
-![visitors](https://visitor-badge.glitch.me/badge?page_id=JihyongOh/FISR)
+**REPO NON-officiel de l'implémentation du modèle FISR**
 
-**REPO NON-officiel de l'implémentation du FISR**
-
-We provide the training and test code along with the trained weights and the dataset (train+test) used for FISR. 
-If you find this repository useful, please consider citing our [paper](https://arxiv.org/abs/1912.07213).
+Article de l'auteur: [paper](https://arxiv.org/abs/1912.07213).
 
 **Reference**:  
 > Soo Ye Kim*, Jihyong Oh*, and Munchurl Kim, "FISR: Deep Joint Frame Interpolation and Super-Resolution with a Multi-scale Temporal Loss", *AAAI Conference on Artificial Intelligence*, 2020. (* *equal contribution*)
@@ -35,7 +29,7 @@ Notre code est implémenté sur les versions suivantes:
 ## Test code
 ### Quick Start
 1.Télécharger le code source à un dossier quelconque **\<source_path\>**.
-2. Download our 4K test dataset from [this link]( https://www.dropbox.com/s/101g9kdobgwl8x6/test.zip?dl=0) and unzip the 'test' folder in **\<source_path\>/data/test**, then you can get an input dataset (LR LFR), a flow data, a warped data and an output dataset (HR HFR) placed in **\<source_path\>/data/test/LR_LFR**, **\<source_path\>/data/test/flow** , **\<source_path\>/data/test/warped**  and **\<source_path\>/data/test/HR_HFR**, respectively. 
+2. Télécharger la base de donnée de l'auteur à l'adresse suivante : [this link]( https://www.dropbox.com/s/101g9kdobgwl8x6/test.zip?dl=0) and unzip the 'test' folder in **\<source_path\>/data/test**, then you can get an input dataset (LR LFR), a flow data, a warped data and an output dataset (HR HFR) placed in **\<source_path\>/data/test/LR_LFR**, **\<source_path\>/data/test/flow** , **\<source_path\>/data/test/warped**  and **\<source_path\>/data/test/HR_HFR**, respectively. 
 ```
 FISR
 └── data
