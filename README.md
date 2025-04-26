@@ -5,7 +5,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/JihyongOh/FISR?style=social)](https://github.com/JihyongOh/FISR)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=JihyongOh/FISR)
 
-**This is the official repository of FISR (AAAI2020).**
+**REPO NON-officiel de l'implémentation du FISR**
 
 We provide the training and test code along with the trained weights and the dataset (train+test) used for FISR. 
 If you find this repository useful, please consider citing our [paper](https://arxiv.org/abs/1912.07213).
@@ -24,17 +24,17 @@ If you find this repository useful, please consider citing our [paper](https://a
 ```
 
 ### Requirements
-Our code is implemented using Tensorflow, and was tested under the following setting:  
-* Python 3.7 
-* Tensorflow 1.13 
-* CUDA 10.0  
-* cuDNN 7.1.4  
-* NVIDIA TITAN Xp GPU
-* Windows 10
+Notre code est implémenté sur les versions suivantes:  
+* Python 3.8
+* Tensorflow 2.10 
+* CUDA 11.2.2  
+* cuDNN 8.1.1  
+* NVIDIA RTX 4080 GPU
+* Windows 11
 
 ## Test code
 ### Quick Start
-1. Download the source code in a directory of your choice **\<source_path\>**.
+1.Télécharger le code source à un dossier quelconque **\<source_path\>**.
 2. Download our 4K test dataset from [this link]( https://www.dropbox.com/s/101g9kdobgwl8x6/test.zip?dl=0) and unzip the 'test' folder in **\<source_path\>/data/test**, then you can get an input dataset (LR LFR), a flow data, a warped data and an output dataset (HR HFR) placed in **\<source_path\>/data/test/LR_LFR**, **\<source_path\>/data/test/flow** , **\<source_path\>/data/test/warped**  and **\<source_path\>/data/test/HR_HFR**, respectively. 
 ```
 FISR
@@ -133,10 +133,4 @@ python main.py --phase 'train' --exp_num 7 --train_data_path './data/train/LR_LF
 * **The training process can be monitored using Tensorboard.** The log directory for using Tensorboard is **\<source_path\>/logdir/FISRnet_exp1**. Please note that the images are viewed in YUV itself (not RGB). 
 * **How to make flow and warped files by using PWC-Net:** you can download all the related tensorflow files from [this link](https://github.com/philferriere/tfoptflow) including weights, and then modify the folder name ‘tfoptflow’ as ‘FISR_tfoptflow’. Insert(download) all our modified versions for ‘train’ phase in ‘FISR_tfoptflow’ folder. You can make .flo flow file by using ‘FISR_warp_mat_with_flo.py’ and then get .mat warped file by using ‘FISR_warp_mat_with_flo.py’. 
 
-
-## Contact
-Please contact us via email (jhoh94@kaist.ac.kr or sooyekim@kaist.ac.kr) for any problems regarding the released code.
-
-## License
-The source code is free for research and education use only. Any commercial use should get formal permission first.
 
