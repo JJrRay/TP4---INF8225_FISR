@@ -48,7 +48,7 @@ FISR
        ├── warped
            ├── LR_Surfing_SlamDunk_test_ss1_warp.mat  
 ```
-3. Download the pre-trained weights from [this link](https://www.dropbox.com/s/hfzzddfocmmazso/FISRnet_exp1.zip?dl=0) and then unzip it to place in **\<source_path\>/checkpoint_dir/FISRnet_exp1**.
+3. Télécharger des poids préentrainés par les auteurs [this link](https://www.dropbox.com/s/hfzzddfocmmazso/FISRnet_exp1.zip?dl=0) et placés les dans **\<source_path\>/checkpoint_dir/FISRnet_exp1**.
 ```
 FISR
 └── checkpoint_dir
@@ -59,7 +59,7 @@ FISR
        ├── FISRnet-122000.meta
            
 ```
-4. Run **main.py** with the following options in parse_args: 
+4. Rouler **main.py** avec les arguments suivants: 
 
 **(i) For testing on our 4K test dataset input:**  
 
