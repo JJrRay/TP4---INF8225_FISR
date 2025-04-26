@@ -1,6 +1,6 @@
 # TP4 - INF8225
 
-**REPO NON-officiel de l'implémentation du modèle FISR**
+**Repo NON-OFFICIEL de l'implémentation du modèle FISR**
 
 Article de l'auteur: [article](https://arxiv.org/abs/1912.07213).
 
