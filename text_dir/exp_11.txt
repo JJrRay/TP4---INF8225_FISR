@@ -1,0 +1,135 @@
+----- Model parameters -----
+net_type : FISRnet
+fraction_gpu : 1.0
+phase : train
+scale_factor : 2
+train_data_path : ./data/train/LR_LFR/LR_Surfing_SlamDunk_5seq.mat
+train_flow_data_path : ./data/train/flow/LR_Surfing_SlamDunk_5seq_ss1.flo
+train_flow_ss2_data_path : ./data/train/flow/LR_Surfing_SlamDunk_5seq_ss2.flo
+train_warped_data_path : ./data/train/warped/LR_Surfing_SlamDunk_5seq_ss1_warp.mat
+train_wapred_ss2_data_path : ./data/train/warped/LR_Surfing_SlamDunk_5seq_ss2_warp.mat
+train_label_path : ./data/train/HR_HFR/HR_Surfing_SlamDunk_5seq.mat
+test_data_path : ./data/test/LR_LFR
+test_flow_data_path : ./data/test/flow/LR_Surfing_SlamDunk_test_ss1.flo
+test_warped_data_path : ./data/test/warped/LR_Surfing_SlamDunk_test_ss1_warp.mat
+test_label_path : ./data/test/HR_HFR
+test_img_dir : ./test_img_dir
+text_dir : ./text_dir
+checkpoint_dir : ./checkpoint_dir
+log_dir : ./logdir
+exp_num : 11
+epoch : 5
+freq_display : 100
+init_lr : 0.0001
+lr_values : [0.0001, 1e-05, 1e-06]
+lr_boundaries : [20, 40]
+lr_type : stair_decay
+lr_stair_decay_points : [80, 90]
+lr_decreasing_factor : 0.1
+lr_linear_decay_point : 50
+batch_size : 8
+n_train_img_showed : 3
+val_batch_size : 2
+val_data_size : 320
+recn_lambda : 0.5
+tm1_lambda : 1.0
+tm2_lambda : 0.1
+tmm_lambda : 1.0
+td_lambda : 0.1
+ss2_lambda : 1.0
+test_patch : (2, 2)
+test_input_size : (1080, 1920)
+frame_folder_path : E:/FISR_Github/FISR_test_folder/scene1
+FISR_input_size : (1080, 1920)
+frame_num : 5
+FISR_test_patch : (2, 2)
+----- Model parameters -----
+net_type : FISRnet
+fraction_gpu : 1.0
+phase : train
+scale_factor : 2
+train_data_path : ./data/train/LR_LFR/LR_Surfing_SlamDunk_5seq.mat
+train_flow_data_path : ./data/train/flow/LR_Surfing_SlamDunk_5seq_ss1.flo
+train_flow_ss2_data_path : ./data/train/flow/LR_Surfing_SlamDunk_5seq_ss2.flo
+train_warped_data_path : ./data/train/warped/LR_Surfing_SlamDunk_5seq_ss1_warp.mat
+train_wapred_ss2_data_path : ./data/train/warped/LR_Surfing_SlamDunk_5seq_ss2_warp.mat
+train_label_path : ./data/train/HR_HFR/HR_Surfing_SlamDunk_5seq.mat
+test_data_path : ./data/test/LR_LFR
+test_flow_data_path : ./data/test/flow/LR_Surfing_SlamDunk_test_ss1.flo
+test_warped_data_path : ./data/test/warped/LR_Surfing_SlamDunk_test_ss1_warp.mat
+test_label_path : ./data/test/HR_HFR
+test_img_dir : ./test_img_dir
+text_dir : ./text_dir
+checkpoint_dir : ./checkpoint_dir
+log_dir : ./logdir
+exp_num : 11
+epoch : 5
+freq_display : 100
+init_lr : 0.0001
+lr_values : [0.0001, 1e-05, 1e-06]
+lr_boundaries : [20, 40]
+lr_type : stair_decay
+lr_stair_decay_points : [80, 90]
+lr_decreasing_factor : 0.1
+lr_linear_decay_point : 50
+batch_size : 8
+n_train_img_showed : 3
+val_batch_size : 2
+val_data_size : 320
+recn_lambda : 1.0
+tm1_lambda : 1.0
+tm2_lambda : 0.1
+tmm_lambda : 1.0
+td_lambda : 0.1
+ss2_lambda : 1.0
+test_patch : (2, 2)
+test_input_size : (1080, 1920)
+frame_folder_path : E:/FISR_Github/FISR_test_folder/scene1
+FISR_input_size : (1080, 1920)
+frame_num : 5
+FISR_test_patch : (2, 2)
+----- Model parameters -----
+net_type : FISRnet
+fraction_gpu : 1.0
+phase : train
+scale_factor : 2
+train_data_path : ./data/train/LR_LFR/LR_Surfing_SlamDunk_5seq.mat
+train_flow_data_path : ./data/train/flow/LR_Surfing_SlamDunk_5seq_ss1.flo
+train_flow_ss2_data_path : ./data/train/flow/LR_Surfing_SlamDunk_5seq_ss2.flo
+train_warped_data_path : ./data/train/warped/LR_Surfing_SlamDunk_5seq_ss1_warp.mat
+train_wapred_ss2_data_path : ./data/train/warped/LR_Surfing_SlamDunk_5seq_ss2_warp.mat
+train_label_path : ./data/train/HR_HFR/HR_Surfing_SlamDunk_5seq.mat
+test_data_path : ./data/test/LR_LFR
+test_flow_data_path : ./data/test/flow/LR_Surfing_SlamDunk_test_ss1.flo
+test_warped_data_path : ./data/test/warped/LR_Surfing_SlamDunk_test_ss1_warp.mat
+test_label_path : ./data/test/HR_HFR
+test_img_dir : ./test_img_dir
+text_dir : ./text_dir
+checkpoint_dir : ./checkpoint_dir
+log_dir : ./logdir
+exp_num : 11
+epoch : 5
+freq_display : 100
+init_lr : 0.0001
+lr_values : [0.0001, 1e-05, 1e-06]
+lr_boundaries : [20, 40]
+lr_type : stair_decay
+lr_stair_decay_points : [80, 90]
+lr_decreasing_factor : 0.1
+lr_linear_decay_point : 50
+batch_size : 8
+n_train_img_showed : 3
+val_batch_size : 2
+val_data_size : 320
+recn_lambda : 1.0
+tm1_lambda : 1.0
+tm2_lambda : 0.1
+tmm_lambda : 1.0
+td_lambda : 0.1
+ss2_lambda : 1.0
+test_patch : (2, 2)
+test_input_size : (1080, 1920)
+frame_folder_path : E:/FISR_Github/FISR_test_folder/scene1
+FISR_input_size : (1080, 1920)
+frame_num : 5
+FISR_test_patch : (2, 2)
