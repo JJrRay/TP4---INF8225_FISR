@@ -26,7 +26,7 @@ Notre code est implémenté sur les versions suivantes:
 * NVIDIA RTX 4080 GPU
 * Windows 11
 
-## Test code
+## Code de test
 ### Quick Start
 1.Télécharger le code source à un dossier quelconque **\<source_path\>**.
 
@@ -69,7 +69,7 @@ python main.py --phase 'test' --exp_num 1 --test_data_path './data/test/LR_LFR' 
 
 ## Code d'entrainement
 ### Quick Start
-Téléchargez notre ensemble de données d'entraînement depuis [ce lien]( https://www.dropbox.com/s/n71hzqis6hpggcs/train.zip?dl=0) et décompressez le dossier 'train' dans <source_path>/data/train. Vous obtiendrez alors un ensemble de données d'entrée (LR LFR), deux données de flux (stride 1 & 2), deux données déformées (stride 1 & 2) et un ensemble de données de sortie (HR HFR) placés respectivement dans <source_path>/data/train/LR_LFR, <source_path>/data/train/flow, <source_path>/data/train/warped et <source_path>/data/train/HR_HFR.
+Téléchargez l'ensemble de données d'entraînement des auteurs depuis [ce lien]( https://www.dropbox.com/s/n71hzqis6hpggcs/train.zip?dl=0) et décompressez le dossier 'train' dans <source_path>/data/train. Vous obtiendrez alors un ensemble de données d'entrée (LR LFR), deux données de flux (stride 1 & 2), deux données déformées (stride 1 & 2) et un ensemble de données de sortie (HR HFR) placés respectivement dans <source_path>/data/train/LR_LFR, <source_path>/data/train/flow, <source_path>/data/train/warped et <source_path>/data/train/HR_HFR.
  ```
 FISR
 └── data
