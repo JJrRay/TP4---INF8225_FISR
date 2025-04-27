@@ -4,7 +4,7 @@
 
 Article de l'auteur: [article](https://arxiv.org/abs/1912.07213).
 
-**Reference**:  
+**Référence**:  
 > Soo Ye Kim*, Jihyong Oh*, and Munchurl Kim, "FISR: Deep Joint Frame Interpolation and Super-Resolution with a Multi-scale Temporal Loss", *AAAI Conference on Artificial Intelligence*, 2020. (* *equal contribution*)
 
 **BibTeX**
